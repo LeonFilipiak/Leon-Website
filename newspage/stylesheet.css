@@ -1,0 +1,138 @@
+
+.rightNowTitle {
+    margin: 0 0 15px 35px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-weight: bolder;
+}
+
+.newsTitle {
+    padding-left: 25px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.mainHeader {
+    margin: 50px 0 15px 60px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.noticeTitle {
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+.newsFeed {
+    width: 1300px;
+    height: 1944px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    margin
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background-color: red;
+  }
+
+.navbarTitle {
+    font-size: medium;
+    padding-left: 30px;
+}
+
+
+.newsPlaceholder {
+    float: left;
+    width: 800px;
+    height: 1860px;
+    margin-left: 50px;
+    background-color: red;
+}
+
+.news {
+    width: 798px;
+    height: 598px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: solid 1px gray;
+}
+
+.newsContentText {
+    padding-left: 20px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.newsContentImg {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 35px;
+}
+
+
+.noticesAndNavbarPlaceholder {
+    float: right;
+    width: 350px;
+    height: 1780px;
+    background-color: green;
+    margin-right: 50px;
+}
+.notice {
+    width: 348px;
+    height: 298px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: solid 1px gray;
+}
+
+.navbar {
+    width: 348px;
+    height: 128px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: solid 1px gray;
+}
+
+.noticeContentText {
+    margin: 0;
+    padding-left: 15px;
+
+}
+
+.noticesContentImg {
+    width: 125px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 15px;
+}
